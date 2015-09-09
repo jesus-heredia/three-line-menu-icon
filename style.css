@@ -95,6 +95,7 @@ display: none;
 }
 #checkbox-menu:checked + nav {
   opacity: 1;
+  visibility: visible;
 }
 nav.mobile-menu {
   background-color: black;
@@ -103,8 +104,9 @@ nav.mobile-menu {
   right: 0;
   opacity: 0;
   position: fixed;
-  transition: opacity .75s ease-in;
+  transition: all .75s ease-in;
   top: 3em;
+  visibility: hidden;
   z-index: 5;
 }
 nav.mobile-menu ul li {
